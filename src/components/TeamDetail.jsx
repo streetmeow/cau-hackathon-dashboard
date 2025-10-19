@@ -32,7 +32,7 @@ export default function TeamDetail() {
           </tr>
         </thead>
         <tbody>
-          {/* --- 2. [수정됨] --- */}
+          {/* -- 2. [수정됨] -- */}
           {/* 고유한 key를 위해 timestamp와 score를 조합 (같은 초에 2개 이상 등록 대비) */}
           {records.map((r) => (
             <tr key={r.timestamp + r.score}>
